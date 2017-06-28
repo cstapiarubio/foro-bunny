@@ -1,4 +1,4 @@
-$(document).ready(function){
+$(document).ready(function(){
 	$("button").click(function(e){
 		e.preventDefault();
 		var name = $("#nombre").val();
@@ -7,7 +7,7 @@ $(document).ready(function){
 			alert("Debes escribir tu nombre y el mensaje");	
 		}
 		else{
-			$("comentarios").append("<div><span class=´center-align'>"+ name + '</span><p class="center-align">'+ message + '<p/></div>');	
+			$("#comentarios").append("<div><span class='center-align'>"+ name + '</span><p class="center-align">'+ message + '</p></div>');	
 		}
 	});
 });
