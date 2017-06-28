@@ -16,5 +16,9 @@ button{
 }
 
 label, span, p{
-	
+	color: black;
+}
+
+span{
+	display: block;
 }
